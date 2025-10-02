@@ -1,5 +1,5 @@
 // This code do the saving and loading of the game using text file
-// I looked up examples online for saving/loading code example: source for file save and load idea: https://stackoverflow.com/questions/19784628/saving-game-state
+// Source for file save and load idea code: https://stackoverflow.com/questions/19784628/saving-game-state
 
 import java.io.*;
 import java.util.*;

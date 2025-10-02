@@ -1,5 +1,4 @@
 // This code implement the property part of the game
-// A property has a name, price, rent, and an owner
 
 public class Property {
     String name;
@@ -11,7 +10,7 @@ public class Property {
         this.name = name;
         this.purchasePrice = purchasePrice;
         this.rentPrice = rentPrice;
-        this.owner = null; // no owner at the start
+        this.owner = null;
     }
 }
 

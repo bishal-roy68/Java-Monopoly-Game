@@ -1,6 +1,4 @@
 // This code implement the player part of the game
-// A player has a name, money, position, and can move on the board
-
 public class Player {
     String name;
     int money;
@@ -10,7 +8,7 @@ public class Player {
     public Player(String name, int money) {
         this.name = name;
         this.money = money;
-        this.position = 0;   // start at GO
+        this.position = 0;
         this.inJail = false;
     }
 }

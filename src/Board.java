@@ -1,6 +1,4 @@
 // This code implement the board of the game
-// It has a list of properties and controls the players moving
-
 import java.util.*;
 
 public class Board {
@@ -13,7 +11,6 @@ public class Board {
         players = new ArrayList<>();
         random = new Random();
 
-        // add some properties
         properties.add(new Property("Mediterranean Avenue", 60, 2));
         properties.add(new Property("Baltic Avenue", 60, 4));
         properties.add(new Property("Oriental Avenue", 100, 6));
@@ -33,7 +30,7 @@ public class Board {
             return;
         }
 
-        int dice1 = random.nextInt(6) + 1; // Source: Oracle Docs - Random
+        int dice1 = random.nextInt(6) + 1;
         int dice2 = random.nextInt(6) + 1;
         int steps = dice1 + dice2;
 
@@ -63,7 +60,7 @@ public class Board {
 
         if (dice1 == dice2) {
             System.out.println(player.name + " rolled doubles and get another turn!");
-            takeTurn(player); // recursion
+            takeTurn(player);
         }
 
         if (player.money <= 0) {
