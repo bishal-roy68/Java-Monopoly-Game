@@ -18,7 +18,7 @@ This project is generally related to my previous project where I created a basic
 ---
 
 ## Screenshot
-![Game Screenshot](screenshot.png)
+![Game Screenshot](screenshot_project3.png)
 
 *(This is a screenshot of my Monopoly GUI running in JavaFX.)*
 
