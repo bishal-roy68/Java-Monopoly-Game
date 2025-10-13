@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -36,3 +37,14 @@ build/
 
 ### Mac OS ###
 .DS_Store
+=======
+# Ignore Mac system files
+.DS_Store
+
+# Ignore IntelliJ project files
+.idea/
+*.iml
+
+# Ignore leftover Monopoly folder
+MonopolyGame/
+>>>>>>> cafd911268b1752454b90483d8602093ddbbb277

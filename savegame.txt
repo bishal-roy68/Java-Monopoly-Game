@@ -1,0 +1,7 @@
+PLAYER,Messi,928,1
+PLAYER,Ronaldo,1332,0
+PROPERTY,Mediterranean Avenue,60,2,Ronaldo
+PROPERTY,Baltic Avenue,60,4,Messi
+PROPERTY,Oriental Avenue,100,6,Messi
+PROPERTY,Vermont Avenue,100,6,none
+PROPERTY,Connecticut Avenue,120,8,Messi

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -9,6 +10,10 @@
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_24" project-jdk-name="ms-21" project-jdk-type="JavaSDK">
+=======
+  <component name="KubernetesApiProvider">{}</component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" default="true" project-jdk-name="openjdk-24" project-jdk-type="JavaSDK">
+>>>>>>> cafd911268b1752454b90483d8602093ddbbb277
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
