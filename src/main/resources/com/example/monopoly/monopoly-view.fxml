@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.monopoly.MonopolyController">
+
+    <top>
+        <Label text="Monopoly Game" style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-padding: 10;" BorderPane.alignment="CENTER"/>
+    </top>
+
+    <center>
+        <VBox alignment="CENTER" spacing="15">
+            <Button text="Roll Dice" fx:id="rollButton" onAction="#onRollClicked" prefWidth="160"/>
+            <Button text="Buy Property" fx:id="buyButton" onAction="#onBuyClicked" prefWidth="160"/>
+            <Button text="Buy House/Hotel" fx:id="houseButton" onAction="#onHouseClicked" prefWidth="160"/>
+            <Button text="Chance" fx:id="chanceButton" onAction="#onChanceClicked" prefWidth="160"/>
+            <Button text="Community Chest" fx:id="chestButton" onAction="#onChestClicked" prefWidth="160"/>
+            <Button text="Save Game" fx:id="saveButton" onAction="#onSaveClicked" prefWidth="160"/>
+            <Button text="Load Game" fx:id="loadButton" onAction="#onLoadClicked" prefWidth="160"/>
+        </VBox>
+    </center>
+
+    <bottom>
+        <Label fx:id="gameStatus" text="Welcome to Monopoly!" style="-fx-padding: 10;"/>
+    </bottom>
+
+</BorderPane>
